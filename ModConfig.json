@@ -1,0 +1,21 @@
+{
+  "ModId": "p5rpc.music.restorelastsurprise",
+  "ModName": "Restore Last Surprise As Ambush Theme",
+  "ModAuthor": "Powercore2000",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Description",
+  "ModDll": "RestoreLastSupriseMod.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/RestoreLastSupriseMod.dll",
+  "ModR2RManagedDll64": "x64/RestoreLastSupriseMod.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "RestoreLastSupriseMod.ReleaseMetadata.json",
+  "PluginData": {},
+  "IsUniversalMod": true,
+  "ModDependencies": [ "reloaded.sharedlib.hooks" ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [],
+  "ProjectUrl": ""
+}
