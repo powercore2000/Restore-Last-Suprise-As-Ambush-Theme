@@ -3,19 +3,67 @@
   "ModName": "Restore Last Surprise As Ambush Theme",
   "ModAuthor": "Powercore2000",
   "ModVersion": "1.0.0",
-  "ModDescription": "Description",
-  "ModDll": "RestoreLastSupriseMod.dll",
+  "ModDescription": "A mod that swaps the ambush and battle themes of p5r pc",
+  "ModDll": "p5rpc.music.restorelastsurprise.dll",
   "ModIcon": "Preview.png",
-  "ModR2RManagedDll32": "x86/RestoreLastSupriseMod.dll",
-  "ModR2RManagedDll64": "x64/RestoreLastSupriseMod.dll",
+  "ModR2RManagedDll32": "x86/p5rpc.music.restorelastsurprise.dll",
+  "ModR2RManagedDll64": "x64/p5rpc.music.restorelastsurprise.dll",
   "ModNativeDll32": "",
   "ModNativeDll64": "",
   "IsLibrary": false,
-  "ReleaseMetadataFileName": "RestoreLastSupriseMod.ReleaseMetadata.json",
-  "PluginData": {},
+  "ReleaseMetadataFileName": "p5rpc.music.restorelastsurprise.ReleaseMetadata.json",
+  "PluginData": {
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "p5rpc.modloader": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "p5rpc.modloader",
+            "UseReleaseTag": true,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "p5rpc.modloader.ReleaseMetadata.json"
+        },
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded.Memory.SigScan",
+            "RepositoryName": "Reloaded-Project",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "RepositoryName": "Sewer56",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
+    },
+    "GitHubRelease": {
+      "UserName": "powercore2000",
+      "RepositoryName": "Restore-Last-Suprise-As-Ambush-Theme",
+      "UseReleaseTag": true,
+      "AssetFileName": "Mod.zip"
+    },
+    "GameBanana": {
+      "ItemType": "Mod",
+      "ItemId": 411089
+    }
+  },
   "IsUniversalMod": true,
-  "ModDependencies": [ "reloaded.sharedlib.hooks" ],
+  "ModDependencies": [
+    "p5rpc.modloader",
+    "Reloaded.Memory.SigScan.ReloadedII",
+    "reloaded.sharedlib.hooks"
+  ],
   "OptionalDependencies": [],
-  "SupportedAppId": [],
+  "SupportedAppId": [
+    "p5r.exe"
+  ],
   "ProjectUrl": ""
 }

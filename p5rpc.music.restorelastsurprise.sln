@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoreLastSupriseMod", "RestoreLastSupriseMod.csproj", "{88A81490-FCE2-403F-B12E-1E0C60F3FDEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p5rpc.music.restorelastsurprise", "p5rpc.music.restorelastsurprise.csproj", "{88A81490-FCE2-403F-B12E-1E0C60F3FDEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

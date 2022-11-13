@@ -1,4 +1,6 @@
-
+.vs/
+obj/
+Publish/
 *.v2
 .vs/RestoreLastSupriseMod/v17/.suo
 .vs/RestoreLastSupriseMod/v16/.suo
