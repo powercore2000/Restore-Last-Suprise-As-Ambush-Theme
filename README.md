@@ -1,7 +1,7 @@
 # Last Suprise Battle Theme
 
 Swaps the cue id for the ambush theme to point to Last Suprise (300) and the Battle Theme now points to Takeover (907). This is a code change using signature 
-signalling so it should be compatable with other BGM mods, and music swap/replacement mods like SereC's Phantom Over Royal mod.
+signaling  so it should be compatible with other BGM mods, and music swap/replacement mods like SereC's Phantom Over Royal mod.
 
 It is Unlikley that this mod supports the Gamepass version of the game.
 
