@@ -1,6 +1,6 @@
 
 ### Version 1.0
 
-- Added BGM files that swap Last Suprise with Take Over
+- Swapped the addresses used for the ambush theme to Last Surpise and the battle theme to takeover
 
 
