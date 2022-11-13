@@ -29,7 +29,8 @@ public class Config : Configurable<Config>
     [Description("This is a string.")]
     [DefaultValue("Default Name")]
     public string String { get; set; } = "Default Name";
-
+    //Not Implemented
+    /*
     [DisplayName("Ambush BGM Cue ID ")]
     [Description("The Cue ID corresponding to the BGM track to play when engadging in normal enemy ambushes")]
     [DefaultValue(300)]
@@ -37,6 +38,7 @@ public class Config : Configurable<Config>
     [DisplayName("Ambush BGM Cue ID ")]
     [Description("The Cue ID corresponding to the BGM track to play when engadging in normal enemy ambushes")]
     [DefaultValue(907)]
+    */
     public int BattleBgmId { get; set; } = 907;
 
     [DisplayName("Bool")]
